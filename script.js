@@ -18,7 +18,7 @@ const btnRoll = document.querySelector(".btn--roll");
 const btnHold = document.querySelector(".btn--hold");
 
 // Declaration of variables
-let currentScore, score, activePlayer, playing;
+let currentScore, scores, activePlayer, playing;
 
 const init = function () {
   // Final score for all players
